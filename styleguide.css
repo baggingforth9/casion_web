@@ -1,0 +1,28 @@
+:root {
+    --red: rgba(200, 0, 0, 1);
+    --xa-7-rg-2: rgba(117, 117, 117, 1);
+    --yoqv-vv: rgba(225, 225, 225, 1);
+    --GJVPIB: rgba(0, 0, 0, 1);
+    --nn-PELF: rgba(253, 121, 0, 1);
+    --single-line-body-base-font-family: "Inter", Helvetica;
+    --single-line-body-base-font-weight: 400;
+    --single-line-body-base-font-size: 16px;
+    --single-line-body-base-letter-spacing: 0px;
+    --single-line-body-base-line-height: 100%;
+    --single-line-body-base-font-style: normal;
+    --color-text-default-tertiary: var(--color-primitives-gray-400);
+    --color-primitives-gray-400: rgba(179, 179, 179, 1);
+    --color-primitives-white-400: rgba(255, 255, 255, 0.4);
+    --size-space-200: 8px;
+    --size-space-400: 16px;
+    --size-space-300: 12px;
+    --size-radius-full: 9999px;
+}
+
+[data-color-mode="SDS-light"] {
+    --color-text-default-tertiary: var(--color-primitives-gray-400);
+}
+
+[data-color-mode="SDS-dark"] {
+    --color-text-default-tertiary: var(--color-primitives-white-400);
+}
